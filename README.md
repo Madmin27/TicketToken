@@ -1,3 +1,15 @@
+
+Mantle Sepolia ağında 1 tane nft deploy etti. Yükleme falan yok
+npx hardhat run scripts/deploy.js --network mantlesepolia
+Deployed TicketToken Contract at: 0xd7cC04431F521641F4e6604Af585Ac5c96B5E535
+
+Listed Event 1: UFC Miami
+Listed Event 2: ETH Tokyo
+Listed Event 3: ETH Privacy Hackathon
+Listed Event 4: Chainlink Turkey
+Listed Event 5: ETH Global Toronto
+![image](https://github.com/Madmin27/TicketToken/assets/94014225/41cf85c9-5fa5-41c5-bb17-d3a2cafacdba)
+
 # TicketToken 
 This is a decentralized ticket marketplace smart contract for managing NFT (Non-Fungible Token) tickets using the ERC721 standard. The smart contract allows the creation of occasions (events) with specific details such as the name, cost of each ticket, maximum tickets available, date, time, and location. Users can then buy tickets for these occasions, and each ticket is represented as a unique NFT. Deployed to the Sepolia testnet.
 
